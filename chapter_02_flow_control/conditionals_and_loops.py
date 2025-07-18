@@ -159,3 +159,15 @@ advertised_capacity = float(advertised_capacity)
 real_capacity = str(round(advertised_capacity * discrepancy, 2))
 
 print('The actual capacity is ' + real_capacity + ' ' + unit)
+
+##
+
+# %%
+
+spam = 1
+if spam == 1:
+    print('Hello')
+elif spam == 2:
+    print('Howdy')
+else:
+    print('Greetings')

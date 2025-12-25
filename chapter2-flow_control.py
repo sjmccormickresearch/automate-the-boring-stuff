@@ -171,3 +171,30 @@ elif spam == 2:
     print('Howdy')
 else:
     print('Greetings')
+
+
+# %%
+spam = 10
+if spam == 10:
+    print('eggs')
+    if spam > 5:
+        print('bacon')
+    else:
+        print('ham')
+    print('spam')
+print('done')
+
+"""if spam is anything other than 10, the whole outer block is skipped and only 'done' is printed.
+the first if is called the outer condition. the second if is the inner condition.
+the outer condition controls the whole block underneath it (everything indented one level inside it).
+If this condition is false, none of the indented lines run.
+The inner if only even gets checked if the outer condition is True"""
+
+# %%
+spam = 3
+if spam == 1:
+    print('Hello')
+elif spam == 2:
+    print('Howdy')
+else:
+    print('Greetings')
